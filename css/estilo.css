@@ -1,0 +1,8 @@
+ /*general styles*/
+.printable{display:none;}
+/* print styles*/
+@media print {
+ .printable {display:block;}
+ .screen {display:none;}
+}
+
